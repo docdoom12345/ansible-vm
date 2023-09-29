@@ -1,0 +1,7 @@
+- name: create a file
+  hosts: centos
+  tasks:
+    - name: create a file
+      file:
+         path: /home/student/test.txt
+         state: touch
